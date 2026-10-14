@@ -1,0 +1,15 @@
+{
+  "name": "tuanwei-v002-pages-demo",
+  "version": "0.2.0-demo",
+  "private": true,
+  "description": "中山大学材料科学与工程学院学习互助平台 V002 静态演示版",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "npm run build && npm run check",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
